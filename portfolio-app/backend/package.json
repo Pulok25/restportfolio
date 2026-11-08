@@ -1,0 +1,13 @@
+{
+  "name": "portfolio-backend",
+  "version": "1.0.0",
+  "description": "Portfolio REST API (Express + SQLite)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.0",
+    "express": "^5.0.0"
+  }
+}
